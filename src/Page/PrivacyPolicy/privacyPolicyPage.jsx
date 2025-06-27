@@ -497,11 +497,11 @@ const PrivacyPolicyPage = () => {
                   <p className="mb-2">Mr. Dipak</p>
                   <div className="space-y-2">
                     <a
-                      href="mailto:privacy@ecofood.in"
+                      href="mailto:support@7unique.in"
                       className="flex items-center justify-center gap-2 text-green-100 hover:text-white"
                     >
                       <Mail className="h-4 w-4" />
-                      privacy@ecofood.in
+                      support@7unique.in / info@7unique.in
                     </a>
                     <a
                       href="tel:01414511098"
