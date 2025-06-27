@@ -19,7 +19,9 @@ import SignupPage from "./Log Sign/signPage/sign";
 import { ContextProvider } from "./Context/context";
 import UserProfile from "./Page/UserProfilePage/userProfile";
 import HelpSupport from "./Page/HelpFAQ/helpFaq";
-import PrivacyPolicy from "./Page/Privacy_Policy_Page/privacyPolicyPage";
+import PrivacyPolicy from "./Page/PrivacyPolicy/privacyPolicyPage";
+import Terms from "./Page/Termsofuse/terms";
+import Refund from "./Page/Refund/refund";
 import RestaurantDishes from "./Page/RestoDiseasesPage/restoDishesPage";
 import PaymentSuccess from "./Page/Payment Success  page/paymentSuccess ";
 import VaultReportPage from "./Page/VaultreportPage/VaultreportPage";
@@ -54,7 +56,9 @@ function App() {
           <Route path="/addtocart" element={<CartPage />} />
           <Route path="/useraccount" element={<UserProfile />} />
           <Route path="/restodishes/:id" element={<RestaurantDishes />} />
-          <Route path="/ourPrivacyAndPolicy" element={<PrivacyPolicy />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/termsofuse" element={<Terms />} />
+           <Route path="/refundandcancel" element={<Refund />} />
           <Route path="/payementSuccess" element={<PaymentSuccess />} />
           <Route path="/walletreport" element={<TransactionVault/>}/>
           <Route path="/chooseMethod" element={<PaymentMethodPage/>}/>
